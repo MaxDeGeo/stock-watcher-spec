@@ -13,6 +13,10 @@
 * React
 * Styled Components
 
+# Other Information
+* Designs were followed as close as possible with time restraint. They may not be completely perfect or spot, but I wanted to limit time spent as recommended.
+* I was unsure as to whether or not design questions needed to be placed here. If so, I can update this README with the proper questions.
+
 # Demo API
 
 The data for the demo API can be found below. I used the six stock symbols found in the designs of the application.
@@ -34,7 +38,3 @@ The data for the demo API can be found below. I used the six stock symbols found
 
     name: "GROUPON INC",
     symbol: "GRPN",
-
-  # Design Questions
-  
-  I was unsure as to whether or not design questions needed to be placed here. If so, I can update this README with the proper questions.
