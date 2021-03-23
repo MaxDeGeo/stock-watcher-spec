@@ -14,7 +14,7 @@
 * Styled Components
 
 # Other Information
-* Designs were followed as close as possible with time restraint. They may not be completely perfect or spot, but I wanted to limit time spent as recommended.
+* Designs were followed as close as possible with time restraint. They may not be completely perfect or spot on, but I wanted to limit time spent as recommended.
 * I was unsure as to whether or not design questions needed to be placed here. If so, I can update this README with the proper questions.
 
 # Demo API
