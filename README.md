@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Getting Started
+**(Assumptions made with Node and NPM already installed)**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Clone repo to directory of choice
 
-## Available Scripts
+2. In terminal of choice, please navigate to the directory of repo.
 
-In the project directory, you can run:
+3. Install required node packages by entering in *npm install*
 
-### `yarn start`
+4. To run the application, please enter *npm start*
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Packages
+* React
+* Styled Components
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Demo API
 
-### `yarn test`
+The data for the demo API can be found below. I used the six stock symbols found in the designs of the application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  {
+    name: "ALPHABET INC. CL C",
+    symbol: "GOOG",
+    currentPrice: 706.32,
+    open: 691,
+    high: 709.28,
+    low: 689.47,
+  },
+  {
+    name: "YAHOO! INC",
+    symbol: "YHOO",
+    currentPrice: 29.27,
+    open: 29.28,
+    high: 29.66,
+    low: 29.06,
+  },
+  {
+    name: "AMERICAN INTERNATIONAL",
+    symbol: "AIG",
+    currentPrice: 53.08,
+    open: 52.06,
+    high: 53.47,
+    low: 52.28,
+  },
+  {
+    name: "VELOCITYSHARES 3X LONG CRUDE ETN",
+    symbol: "UWTIF",
+    currentPrice: 1.61,
+    open: 1.37,
+    high: 1.74,
+    low: 1.50,
+  },
+  {
+    name: "3X INVERSE CRUDE",
+    symbol: "DWTIF",
+    currentPrice: 253.41,
+    open: 307.10,
+    high: 297.50,
+    low: 245.59,
+  },
+  {
+    name: "GROUPON INC",
+    symbol: "GRPN",
+    currentPrice: 3.74,
+    open: 4.08,
+    high: 4.13,
+    low: 3.60,
+  }
+  
+  # Design Questions
+  
+  I was unsure as to whether or not design questions needed to be placed here. If so, I can update this README with the proper questions.
